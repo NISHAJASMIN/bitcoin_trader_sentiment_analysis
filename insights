@@ -1,0 +1,16 @@
+# Trader Behavior vs Market Sentiment Analysis
+
+## Methodology
+The trader dataset and Bitcoin Fear & Greed sentiment dataset were cleaned and merged using a common date column. Timestamp fields were converted to datetime format, and unnecessary columns were removed. Key metrics such as average PnL, win rate, trade frequency, and long/short ratio were calculated to analyze trader behavior across different sentiment conditions.
+
+## Key Insights
+1. **Trader performance varies with sentiment.** Average PnL is highest during Extreme Greed periods, indicating traders perform better during strong bullish market sentiment.
+
+2. **Trading activity changes with sentiment.** Traders tend to execute more trades during strong sentiment periods such as Fear or Greed, suggesting that market emotions influence trading frequency.
+
+3. **Trading direction shows sentiment bias.** During Greed periods, traders demonstrate a stronger long bias, while Fear periods show relatively more short positions.
+
+## Strategy Recommendations
+**Strategy 1:** Increase long exposure during Extreme Greed sentiment while maintaining proper risk management.
+
+**Strategy 2:** Reduce trade sizes during Fear or Extreme Fear periods to minimize risk from increased market volatility.
